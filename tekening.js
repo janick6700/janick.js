@@ -17,7 +17,7 @@ function setup(){
 createCanvas(xSize, ySize);
 }
 function draw(){
-background(0);
+background(2900);
 if (xBall1 > width - radius || xBall1 < radius){
 xSpeed1 = -xSpeed1;
 }
